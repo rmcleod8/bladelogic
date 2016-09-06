@@ -26,10 +26,10 @@
     ** STATIC_SERVER_GROUP: /Workspace/richard/server_group-20150512
 8. Execute the job
 
-### Instructions below are only for creating this as an execution task, you can ignore
-### Do Not Proceed to the following steps unless the above is completed
+## Instructions below are only for creating this as an execution task, you can ignore
+## Do Not Proceed to the following steps unless the above is completed
  
-Job Setup:
+### Job Setup:
 1. Navigate to the script job
 2. Right click the script job and choose "Create Execution Task"
 3. Give the Execution Task a name and location, choose Next
@@ -39,7 +39,6 @@ Job Setup:
 7. You will be shown an input box for DEPOT_FILE_PATH, enter the path we gathered in the pre-requisites (/Workspace/richard/server_list-20150512.txt)
 8. Click the + sign to add the other parameter STATIC_SERVER_GROUP
 9. Enter the path we gathered in the pre-requisites AND the name of the static server group you want (/Workspace/richard/server_list-20150512) -- here I decided to call the group server_list-20150512
-Here is an example of the NSH Parameters screennsh_parms.PNG
 10. Click Finish
 11. Navigate to the execution task and simply execute it once to create the static server group.
 12. After the script job runs successfully, you should be able to navigate to the server group path you provided to the execution task and see the servers that were fed in through the file
